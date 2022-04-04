@@ -1,9 +1,8 @@
 package com.example.demo.service;
-
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
-@Repository
+@Service
 public class CodeGenerator {
     static final int NUM_CHARS_SHORT_LINK = 3;
     static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
